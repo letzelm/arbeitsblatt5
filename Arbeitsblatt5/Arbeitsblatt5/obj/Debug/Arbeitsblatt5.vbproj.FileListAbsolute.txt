@@ -11,3 +11,14 @@ C:\Users\MARTIN\Documents\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\D
 C:\Users\MARTIN\Documents\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.exe
 C:\Users\MARTIN\Documents\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.xml
 C:\Users\MARTIN\Documents\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.pdb
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\bin\Debug\Arbeitsblatt5.exe.config
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.exe
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.xml
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.pdb
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\bin\Debug\Arbeitsblatt5.exe
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\bin\Debug\Arbeitsblatt5.pdb
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\bin\Debug\Arbeitsblatt5.xml
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.vbprojResolveAssemblyReference.cache
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.Form1.resources
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.Resources.resources
+U:\Dokumente\GitHub\arbeitsblatt5\Arbeitsblatt5\Arbeitsblatt5\obj\Debug\Arbeitsblatt5.vbproj.GenerateResource.Cache
