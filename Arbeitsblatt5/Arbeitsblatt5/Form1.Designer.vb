@@ -47,9 +47,28 @@ Partial Class Form1
         Me.erwachsener = New System.Windows.Forms.RadioButton()
         Me.kind = New System.Windows.Forms.RadioButton()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.kontonummer = New System.Windows.Forms.TextBox()
+        Me.prufziffer = New System.Windows.Forms.TextBox()
+        Me.paypaluser = New System.Windows.Forms.TextBox()
+        Me.pppasswort = New System.Windows.Forms.TextBox()
+        Me.buchen = New System.Windows.Forms.Button()
+        Me.calc = New System.Windows.Forms.GroupBox()
+        Me.b1 = New System.Windows.Forms.Button()
+        Me.b2 = New System.Windows.Forms.Button()
+        Me.b3 = New System.Windows.Forms.Button()
+        Me.b4 = New System.Windows.Forms.Button()
+        Me.b5 = New System.Windows.Forms.Button()
+        Me.b6 = New System.Windows.Forms.Button()
+        Me.b7 = New System.Windows.Forms.Button()
+        Me.b8 = New System.Windows.Forms.Button()
+        Me.b9 = New System.Windows.Forms.Button()
+        Me.bdel = New System.Windows.Forms.Button()
+        Me.b0 = New System.Windows.Forms.Button()
+        Me.bkom = New System.Windows.Forms.Button()
         Me.ContextMenuStrip2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.calc.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -289,12 +308,188 @@ Partial Class Form1
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 11
         '
+        'kontonummer
+        '
+        Me.kontonummer.Location = New System.Drawing.Point(454, 195)
+        Me.kontonummer.Name = "kontonummer"
+        Me.kontonummer.Size = New System.Drawing.Size(100, 20)
+        Me.kontonummer.TabIndex = 12
+        Me.kontonummer.Text = "Kontonummer"
+        '
+        'prufziffer
+        '
+        Me.prufziffer.Location = New System.Drawing.Point(454, 222)
+        Me.prufziffer.Name = "prufziffer"
+        Me.prufziffer.Size = New System.Drawing.Size(100, 20)
+        Me.prufziffer.TabIndex = 13
+        Me.prufziffer.Text = "Prüfziffer"
+        '
+        'paypaluser
+        '
+        Me.paypaluser.Location = New System.Drawing.Point(454, 259)
+        Me.paypaluser.Name = "paypaluser"
+        Me.paypaluser.Size = New System.Drawing.Size(100, 20)
+        Me.paypaluser.TabIndex = 14
+        Me.paypaluser.Text = "PayPal E-mail"
+        '
+        'pppasswort
+        '
+        Me.pppasswort.Location = New System.Drawing.Point(454, 283)
+        Me.pppasswort.Name = "pppasswort"
+        Me.pppasswort.Size = New System.Drawing.Size(100, 20)
+        Me.pppasswort.TabIndex = 15
+        Me.pppasswort.Text = "Passwort"
+        '
+        'buchen
+        '
+        Me.buchen.Location = New System.Drawing.Point(454, 314)
+        Me.buchen.Name = "buchen"
+        Me.buchen.Size = New System.Drawing.Size(100, 24)
+        Me.buchen.TabIndex = 16
+        Me.buchen.Text = "Buchen / OK"
+        Me.buchen.UseVisualStyleBackColor = True
+        '
+        'calc
+        '
+        Me.calc.Controls.Add(Me.bkom)
+        Me.calc.Controls.Add(Me.b0)
+        Me.calc.Controls.Add(Me.bdel)
+        Me.calc.Controls.Add(Me.b9)
+        Me.calc.Controls.Add(Me.b8)
+        Me.calc.Controls.Add(Me.b7)
+        Me.calc.Controls.Add(Me.b6)
+        Me.calc.Controls.Add(Me.b5)
+        Me.calc.Controls.Add(Me.b4)
+        Me.calc.Controls.Add(Me.b3)
+        Me.calc.Controls.Add(Me.b2)
+        Me.calc.Controls.Add(Me.b1)
+        Me.calc.Location = New System.Drawing.Point(354, 371)
+        Me.calc.Name = "calc"
+        Me.calc.Size = New System.Drawing.Size(98, 135)
+        Me.calc.TabIndex = 17
+        Me.calc.TabStop = False
+        Me.calc.Text = "Geldeingabe"
+        '
+        'b1
+        '
+        Me.b1.Location = New System.Drawing.Point(6, 19)
+        Me.b1.Name = "b1"
+        Me.b1.Size = New System.Drawing.Size(21, 21)
+        Me.b1.TabIndex = 0
+        Me.b1.Text = "1"
+        Me.b1.UseVisualStyleBackColor = True
+        '
+        'b2
+        '
+        Me.b2.Location = New System.Drawing.Point(33, 19)
+        Me.b2.Name = "b2"
+        Me.b2.Size = New System.Drawing.Size(21, 21)
+        Me.b2.TabIndex = 1
+        Me.b2.Text = "2"
+        Me.b2.UseVisualStyleBackColor = True
+        '
+        'b3
+        '
+        Me.b3.Location = New System.Drawing.Point(60, 19)
+        Me.b3.Name = "b3"
+        Me.b3.Size = New System.Drawing.Size(21, 21)
+        Me.b3.TabIndex = 2
+        Me.b3.Text = "3"
+        Me.b3.UseVisualStyleBackColor = True
+        '
+        'b4
+        '
+        Me.b4.Location = New System.Drawing.Point(6, 46)
+        Me.b4.Name = "b4"
+        Me.b4.Size = New System.Drawing.Size(21, 21)
+        Me.b4.TabIndex = 3
+        Me.b4.Text = "4"
+        Me.b4.UseVisualStyleBackColor = True
+        '
+        'b5
+        '
+        Me.b5.Location = New System.Drawing.Point(33, 46)
+        Me.b5.Name = "b5"
+        Me.b5.Size = New System.Drawing.Size(21, 21)
+        Me.b5.TabIndex = 4
+        Me.b5.Text = "5"
+        Me.b5.UseVisualStyleBackColor = True
+        '
+        'b6
+        '
+        Me.b6.Location = New System.Drawing.Point(60, 46)
+        Me.b6.Name = "b6"
+        Me.b6.Size = New System.Drawing.Size(21, 21)
+        Me.b6.TabIndex = 5
+        Me.b6.Text = "6"
+        Me.b6.UseVisualStyleBackColor = True
+        '
+        'b7
+        '
+        Me.b7.Location = New System.Drawing.Point(6, 73)
+        Me.b7.Name = "b7"
+        Me.b7.Size = New System.Drawing.Size(21, 21)
+        Me.b7.TabIndex = 6
+        Me.b7.Text = "7"
+        Me.b7.UseVisualStyleBackColor = True
+        '
+        'b8
+        '
+        Me.b8.Location = New System.Drawing.Point(33, 73)
+        Me.b8.Name = "b8"
+        Me.b8.Size = New System.Drawing.Size(21, 21)
+        Me.b8.TabIndex = 7
+        Me.b8.Text = "8"
+        Me.b8.UseVisualStyleBackColor = True
+        '
+        'b9
+        '
+        Me.b9.Location = New System.Drawing.Point(60, 73)
+        Me.b9.Name = "b9"
+        Me.b9.Size = New System.Drawing.Size(21, 21)
+        Me.b9.TabIndex = 8
+        Me.b9.Text = "9"
+        Me.b9.UseVisualStyleBackColor = True
+        '
+        'bdel
+        '
+        Me.bdel.Location = New System.Drawing.Point(6, 100)
+        Me.bdel.Name = "bdel"
+        Me.bdel.Size = New System.Drawing.Size(21, 21)
+        Me.bdel.TabIndex = 9
+        Me.bdel.Text = "d"
+        Me.bdel.UseVisualStyleBackColor = True
+        '
+        'b0
+        '
+        Me.b0.Location = New System.Drawing.Point(33, 100)
+        Me.b0.Name = "b0"
+        Me.b0.Size = New System.Drawing.Size(21, 21)
+        Me.b0.TabIndex = 10
+        Me.b0.Text = "0"
+        Me.b0.UseVisualStyleBackColor = True
+        '
+        'bkom
+        '
+        Me.bkom.Location = New System.Drawing.Point(60, 100)
+        Me.bkom.Name = "bkom"
+        Me.bkom.Size = New System.Drawing.Size(21, 21)
+        Me.bkom.TabIndex = 11
+        Me.bkom.Text = ","
+        Me.bkom.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AllowDrop = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(716, 505)
+        Me.ClientSize = New System.Drawing.Size(716, 552)
+        Me.Controls.Add(Me.calc)
+        Me.Controls.Add(Me.buchen)
+        Me.Controls.Add(Me.pppasswort)
+        Me.Controls.Add(Me.paypaluser)
+        Me.Controls.Add(Me.prufziffer)
+        Me.Controls.Add(Me.kontonummer)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -311,6 +506,7 @@ Partial Class Form1
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.calc.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -340,4 +536,22 @@ Partial Class Form1
     Friend WithEvents erwachsener As RadioButton
     Friend WithEvents kind As RadioButton
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents kontonummer As TextBox
+    Friend WithEvents prufziffer As TextBox
+    Friend WithEvents paypaluser As TextBox
+    Friend WithEvents pppasswort As TextBox
+    Friend WithEvents buchen As Button
+    Friend WithEvents calc As GroupBox
+    Friend WithEvents bkom As Button
+    Friend WithEvents b0 As Button
+    Friend WithEvents bdel As Button
+    Friend WithEvents b9 As Button
+    Friend WithEvents b8 As Button
+    Friend WithEvents b7 As Button
+    Friend WithEvents b6 As Button
+    Friend WithEvents b5 As Button
+    Friend WithEvents b4 As Button
+    Friend WithEvents b3 As Button
+    Friend WithEvents b2 As Button
+    Friend WithEvents b1 As Button
 End Class
